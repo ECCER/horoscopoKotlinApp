@@ -12,4 +12,6 @@ interface HoroscopeApi {
         @Query("sign") sign:String,
         @Query("day") day:String
     ) :Response<HoroscopeResponse>
+
+    //Forzar crash para mostrar el interceptor
 }
